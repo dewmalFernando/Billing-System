@@ -1,0 +1,167 @@
+@charset "utf-8";
+
+/*-----------------------------------------------------*/
+/*Navigation CSS*/
+
+body,html{
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.billingSection{
+    background-color: lightgray;
+    opacity: 0.6;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.dataSection{
+    background-color: white;
+    opacity: 0.6;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.dataSectionIndex{
+    background-color: lightgray;
+    opacity: 0.6;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+nav{
+    background-color: black;
+  }
+
+  a{
+    color: gray;
+  }
+
+  a:hover{
+    color: lightgray;
+  }
+
+/*CSS for links in navigation bar*/
+.nav-link{
+    font-size: 0.9vw;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+
+div a#Text{
+    letter-spacing: 0.05em;
+}
+
+/*CSS for the text in the center of the navigation bar*/
+div a#Text:hover{
+    color: rebeccapurple;
+}
+
+
+
+/*Change font size of the text "Hello Craft*/
+div.col h1{
+    font-size: 4.5vw;
+}
+
+/*Changing border radius of "Make an order" button*/
+div.text-center button#makeAnOrderButton {
+    border-radius: 0;
+}
+/*-----------------------------------------------------*/
+/*Section one CSS*/
+#sectionOne{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+/*Set "Make an order" buttons' font color*/
+div.text-center button#makeAnOrderButton a{
+    color: black;
+    letter-spacing: 0.05em
+}
+
+/*Set "Make an order" buttons' hover font color*/
+div.text-center button#makeAnOrderButton a:hover{
+    color: white;
+    
+}
+
+
+
+/*Change colors of all "i" tags*/
+i{
+    color: gray;
+}
+
+.search{
+    float: right;
+    margin-right: 105px;
+}
+
+.addButton{
+    position: relative;
+    left: 20px;
+    top: 0px;
+}
+
+.searchText{
+    height: 30px;
+    padding: 5px;
+}
+
+.searchButton{
+    position: relative;
+    right: -240px;
+    top: -38px;
+}
+
+#printButton{
+    position: relative;
+    right: 50px;
+}
+
+div.totalAmmount{
+    background-color: rgb(218, 205, 88);
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 50px;
+    float: right;
+    bottom: 143px;
+}
+
+.printButton{
+    left: -90px;
+    top: 18px;
+
+}
+
+.enterButton{
+    position: relative;
+
+}
+
+.totalSales{
+    position: relative;
+    left: 1300px;
+    bottom: 40px;
+    width: 120px;
+    background-color: white;
+    opacity: 0.8;
+    padding: 10px;
+}
+
+pre{
+    color: lightgray;
+}
+
+
+
